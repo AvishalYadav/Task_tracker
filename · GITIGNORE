@@ -26,5 +26,3 @@ env/
 Thumbs.db
 .vscode/
 .idea/
-.streamlit/secrets.toml
-*.json
