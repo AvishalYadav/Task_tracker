@@ -1,0 +1,9 @@
+# Pinned to a tested band: use_container_width / components.v1.html are
+# deprecated in newer Streamlit; this range keeps them available so local
+# (1.46.x) and Community Cloud behave identically.
+streamlit>=1.40,<1.60
+pandas>=2.0
+plotly>=5.20
+gspread>=6.0
+google-auth>=2.0
+openpyxl>=3.1

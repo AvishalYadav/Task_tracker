@@ -1,0 +1,30 @@
+# =====================================================================
+#  NEVER commit these — they contain credentials or private data
+# =====================================================================
+.streamlit/secrets.toml
+*.json
+curious-drive-*.json          # your Google service-account key
+
+# Local task data (the real data lives in Google Sheets)
+Database.csv
+Database.csv.tmp
+
+# =====================================================================
+#  Python / environment
+# =====================================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# =====================================================================
+#  OS / editor cruft
+# =====================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.streamlit/secrets.toml
+*.json
